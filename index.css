@@ -148,6 +148,7 @@ button {
   color: hsl(0, 0%, 100%);
   background-color: hsl(224, 30%, 27%);
   font-weight: 700;
+  cursor: pointer;
 }
 button:hover,
 button:focus {
