@@ -179,7 +179,7 @@ button:focus {
 
   #container {
     width: 80%;
-    height: 70vh;
+    height: 24rem;
     max-width: 47rem;
     display: flex;
     justify-content: center;
