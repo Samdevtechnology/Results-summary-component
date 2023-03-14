@@ -72,8 +72,8 @@
 }
 
 #circle small {
-  font-size: 16px;
-  font-weight: 700;
+  /* font-size: 16px; */
+  font-weight: 400;
   color: hsla(0, 0%, 100%, 0.4);
 }
 
