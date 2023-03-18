@@ -159,14 +159,14 @@ button:focus {
 
 #footer {
   display: block;
-  color: hsl(218, 44%, 22%);
+  color: hsl(39, 100%, 56%);
   width: 100%;
   text-align: center;
   margin: 2rem 0;
 }
 
 #footer a {
-  color: hsl(207, 84%, 45%);
+  color: hsla(0, 100%, 67%);
 }
 
 @media only screen and (min-width: 720px) {
@@ -179,9 +179,13 @@ button:focus {
     flex-direction: column;
   }
 
+  #wrap {
+    position: relative;
+  }
+
   #container {
     max-width: 46rem;
-    max-height: 32rem;
+    height: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,5 +245,14 @@ button:focus {
 
   button {
     padding: 1rem;
+  }
+
+  #footer {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    padding-bottom: 5px;
+    font-weight: 700px;
+    font-size: 18px;
   }
 }
